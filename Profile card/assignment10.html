@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .container{
+            height:95vh;
+            width:35vw;
+          
+            margin:auto;
+            border-radius:20px;
+            background-color: white;
+        }
+        .profilesection{
+            height:30%;
+            width:100%;
+            
+            background-color:rgb(60, 60, 214);
+            border-top-left-radius:20px;    
+            border-top-right-radius:20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .profilesection img{
+            position:relative;
+            top:30%;
+            border:5px solid rgb(60, 60, 214);
+
+        }
+        .section{
+            
+            width:100%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            height:40%;
+
+        }
+        .data{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            
+        }
+        .icons{
+            
+            height:30px;
+            width:100%;
+        }
+        .buttons{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            margin-top:17px;
+        }
+        .buttons button{
+            border:none;
+            background-color:rgb(60, 60, 214);
+            color:white;
+            font-size:15px;
+            border-radius:20px;
+            
+        }
+        .bottom{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-top:20px;
+            gap:40px;
+        }
+        .icons{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profilesection">
+            <img src="images.jpg" alt="profile picture" style="width:180px;height:180px;border-radius:50%;">
+
+        </div>
+        <div class="section">
+            <div class="data">
+                <p style="font-size: 30px; margin-top: 55px; margin-bottom: 0px;">CodingLab</p>
+                <p style="font-size: 20px; margin-top: 5px;">Youtuber & Blogger</p>
+                <div class="icons">
+                    <img src="facebook.png" alt="facebook" style="width:30px;height:30px;">
+                    <img src="twitter.png" alt="twitter" style="width:30px;height:30px;">
+                    <img src="instagram.png" alt="linkedin" style="width:30px;height:30px;">
+                    <img src="youtube.png" alt="youtube" style="width:30px;height:30px;">
+                </div>
+            </div>
+
+        </div>
+        <div class="buttons">
+            <button style="width:130px;height:40px;">Subscribe</button>
+            <button style="width:130px;height:40px;">Message</button>
+        </div>
+        <div class="bottom">
+            <div class="like">
+                <span style="font-size: 20px; color: black;">&#9825;</span>
+                <span style="font-size: 20px;">60.4K</span>
+            </div>
+            <div class="comment">
+                <span style="font-size: 20px; color: black;">&#128172;</span>
+                <span style="font-size: 20px;">20K</span>
+            </div>
+            <div class="forward">
+                <span style="font-size: 20px; color: black;">&#10150;</span>
+                <span style="font-size: 20px;">10K</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

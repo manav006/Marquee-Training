@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --b: 2px solid black;
+            --maincolor: red;
+            --center : auto;
+            --chotedabbekiheight : 100%;
+            --dabbekiheight : 25%;
+            --dabbekiwidth : 100%;
+            --chotedabbekiwidth : 40%;
+            --chotasidese :40%;
+            --mainwlaheight:40vw;
+            --mainwliwidth:60vw;
+            --flexu :flex;
+            --flexurow :rows;
+            --gapu : 230px;
+            --mtopu: 40px;
+            --paddu : 30px;
+            --golu : 50%
+        }
+        .container{
+            margin: var(--center);
+            height: var(--mainwlaheight);
+            width: var(--mainwliwidth);
+            background-color: var(--maincolor);
+            padding: var(--paddu);
+        }
+
+        .upper{
+            
+            height: var(--dabbekiheight);
+            width: var(--dabbekiwidth);
+            display: var(--flexu);
+            gap: var(--gapu);
+        }
+        .lower{
+            
+            border: var(--b);
+            height: var(--dabbekiheight);
+            width: var(--dabbekiwidth);
+            margin-top: var(--mtopu);
+        }
+        .box{
+            height: var(--chotedabbekiheight);
+            width: var(--chotedabbekiwidth);
+            border: var(--b);
+        }
+        .circle{
+            height:var(--mtopu);
+            width: var(--paddu);
+           
+            border: var(--b);
+            margin: var(--center);
+            margin-top: var(--mtopu);
+            border-radius: var(--golu);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="lower"></div>
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
