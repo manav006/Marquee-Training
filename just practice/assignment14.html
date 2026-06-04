@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height:80vh;
+            width:80vw;
+            margin:auto;
+            display:grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            border: 1px solid black;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            justify-self: center;
+            align-self: center;
+        }
+
+        .box1{
+            justify-self:end;
+            align-self:end;
+        }
+    
+        .box3{
+            justify-self:start;
+            align-self:end;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1 box "></div>
+        <div class=" box2"></div>
+        <div class=" box3 box"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class=" box8"></div>
+        <div class="box box9"></div>
+    </div>
+</body>
+</html>
